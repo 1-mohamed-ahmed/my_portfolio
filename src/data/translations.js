@@ -149,34 +149,36 @@ const translations = {
       items: [
         {
           key: "docdoc",
+          title: "DocDoc",
+          description:
+            "A medical appointment application built with Flutter using Clean Architecture, BLoC, and REST APIs.",
           icon: "🩺",
           tech: ["Flutter", "BLoC", "Dio", "REST API"],
           github: "https://github.com/1-mohamed-ahmed/doc_doc",
-          live: "#",
+          live: "",
         },
 
         {
           key: "chatApp",
           icon: "💬",
+          title: "Chat App",
+          description:
+            "A real-time chat application built with Flutter and Firebase, featuring authentication and messaging.",
           tech: ["Flutter", "Dart", "Firebase", "BLoC"],
           github: "https://github.com/1-mohamed-ahmed/chat_app",
-          live: "#",
+          live: "",
+        },
+        {
+          key: "todo",
+          title: "Todo App",
+          description:
+            "A modern Todo application built with React and Tailwind CSS.",
+          icon: "📋",
+          tech: ["HTML", "CSS", "JavaScript", "React", "Tailwind CSS"],
+          github: "https://github.com/1-mohamed-ahmed/todo",
+          live: "https://todo-seven-alpha-14.vercel.app/",
         },
       ],
-
-      docdoc: {
-        title: "DocDoc",
-
-        description:
-          "A medical appointment application built with Flutter using Clean Architecture, BLoC, and REST APIs.",
-      },
-
-      chatApp: {
-        title: "Chat App",
-
-        description:
-          "A real-time chat application built with Flutter and Firebase, featuring authentication and messaging.",
-      },
     },
 
     // =========================
@@ -448,34 +450,39 @@ const translations = {
       items: [
         {
           key: "docdoc",
+          title: "DocDoc",
+
+          description:
+            "تطبيق لحجز المواعيد الطبية باستخدام Flutter وClean Architecture وBLoC وREST APIs.",
           icon: "🩺",
           tech: ["Flutter", "BLoC", "Dio", "REST API"],
           github: "https://github.com/1-mohamed-ahmed/doc_doc",
-          live: "#",
+          live: "",
         },
 
         {
           key: "chatApp",
           icon: "💬",
+          title: "تطبيق المحادثة",
+
+          description:
+            "تطبيق محادثة فوري باستخدام Flutter وFirebase، مع نظام تسجيل دخول وإرسال واستقبال الرسائل.",
+
           tech: ["Flutter", "Dart", "Firebase", "BLoC"],
           github: "https://github.com/1-mohamed-ahmed/chat_app",
-          live: "#",
+          live: "",
+        },
+        {
+          key: "todo",
+          title: "Todo App",
+          description:
+            "تطبيق حديث لإدارة المهام تم تطويره باستخدام React وTailwind CSS.",
+          icon: "📋",
+          tech: ["HTML", "CSS", "JavaScript", "React", "Tailwind CSS"],
+          github: "https://github.com/1-mohamed-ahmed/todo",
+          live: "https://todo-seven-alpha-14.vercel.app/",
         },
       ],
-
-      docdoc: {
-        title: "DocDoc",
-
-        description:
-          "تطبيق لحجز المواعيد الطبية باستخدام Flutter وClean Architecture وBLoC وREST APIs.",
-      },
-
-      chatApp: {
-        title: "تطبيق المحادثة",
-
-        description:
-          "تطبيق محادثة فوري باستخدام Flutter وFirebase، مع نظام تسجيل دخول وإرسال واستقبال الرسائل.",
-      },
     },
 
     // =========================

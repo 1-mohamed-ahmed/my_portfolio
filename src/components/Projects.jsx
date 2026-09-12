@@ -114,11 +114,11 @@ export default function Projects() {
                 {/* Content */}
                 <div className="relative z-10 p-7">
                   <h3 className="text-2xl font-black transition-colors duration-300 group-hover:text-purple-300">
-                    {data.projects[project.key].title}
+                    {project.title}
                   </h3>
 
                   <p className="mt-4 leading-7 text-slate-400">
-                    {data.projects[project.key].description}
+                    {project.description}
                   </p>
 
                   {/* Technologies */}
@@ -173,10 +173,14 @@ export default function Projects() {
                     >
                       <span>GitHub</span>
                     </a>
-                    {/* 
-                    <a
-                      href={project.live}
-                      className="
+
+                    {project.live == "" ? (
+                      <></>
+                    ) : (
+                      <a
+                        target="_blank"
+                        href={project.live}
+                        className="
                       inline-flex
                       items-center
                       gap-2
@@ -195,10 +199,11 @@ export default function Projects() {
                       hover:shadow-lg
                       hover:shadow-purple-500/20
                     "
-                    >
-                      <span>↗</span>
-                      {data.projects.view}
-                    </a> */}
+                      >
+                        <span>↗</span>
+                        {data.projects.view}
+                      </a>
+                    )}
                   </div>
                 </div>
               </motion.article>
