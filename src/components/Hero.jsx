@@ -151,29 +151,26 @@ export default function Hero() {
 
                 <p className="pl-4">skills: [</p>
 
-                <div className="flex">
-                  <p className="pl-10 text-cyan-400">"mobile":</p>
+                <div className="">
+                  <p className="pl-10 text-cyan-400 block">"mobile":</p>
 
-                  <p className="text-yellow-400">
-                    ["Flutter", "Dart", "BLoC &Cubit", "clean architecture"
+                  <p className="text-yellow-400 pl-15 ">
+                    ["Flutter", "Dart" , "BLoC &Cubit", "clean architecture "]
                   </p>
-
-                  <p className="text-yellow-400">],</p>
                 </div>
 
-                <div className="flex">
+                <div className="">
                   <p className="pl-10 text-cyan-400">"Frontend":</p>
 
-                  <span className="pl-2 text-yellow-400">[</span>
+                  <p className=" text-yellow-400 pl-15 ">
+                    ["React", "JavaScript", "HTML", "CSS", "TailwindCSS"]
+                  </p>
 
-                  <span className="text-yellow-400">
-                    "React", "JavaScript", "HTML", "CSS", "TailwindCSS"
-                  </span>
+                  <span className="text-yellow-400"></span>
+                  <span className="text-yellow-400"></span>
 
-                  <span className="text-yellow-400">],</span>
+                  <span className="text-yellow-400 pl-3">],</span>
                 </div>
-
-                <p className="pl-6">]</p>
 
                 <p>{"}"}</p>
               </div>
