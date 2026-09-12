@@ -93,7 +93,7 @@ export default function Hero() {
             </div>
           </div>
           <motion.div
-            className="group relative hidden rounded-3xl sm:block"
+            className="group relative  rounded-3xl sm:block"
             animate={{
               x: [-3, 3, -3, 3, -3],
               y: [3, -3, 3, -3, 3],
