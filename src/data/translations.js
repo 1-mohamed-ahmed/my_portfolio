@@ -178,6 +178,25 @@ const translations = {
           github: "https://github.com/1-mohamed-ahmed/todo",
           live: "https://todo-seven-alpha-14.vercel.app/",
         },
+        {
+          key: "nova-shop",
+          title: "Nova SHOP",
+          description:
+            "A modern and responsive e-commerce website built with React, Tailwind CSS, and DummyJSON API.",
+          icon: "🛍️",
+          tech: [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "React",
+            "Tailwind CSS",
+            "Context API",
+            "Axios",
+            "React Router",
+          ],
+          github: "https://github.com/1-mohamed-ahmed/todo",
+          live: "https://e-commerce-beta-liart-49.vercel.app/",
+        },
       ],
     },
 
@@ -287,9 +306,7 @@ const translations = {
     footer: "Built with React & Tailwind CSS.",
   },
 
-  // =========================================================
-  // ARABIC
-  // =========================================================
+  // ===================== ARABIC ===============================
 
   ar: {
     nav: {
@@ -481,6 +498,25 @@ const translations = {
           tech: ["HTML", "CSS", "JavaScript", "React", "Tailwind CSS"],
           github: "https://github.com/1-mohamed-ahmed/todo",
           live: "https://todo-seven-alpha-14.vercel.app/",
+        },
+        {
+          key: "nova-shop",
+          title: "Nova SHOP",
+          description:
+            "متجر إلكتروني عصري ومتجاوب مبني باستخدام React، ويحتوي على عرض المنتجات والتصنيفات والبحث وإدارة سلة المشتريات وقائمة المفضلة.",
+          icon: "🛍️",
+          tech: [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "React",
+            "Tailwind CSS",
+            "Context API",
+            "Axios",
+            "React Router",
+          ],
+          github: "رابط-الجيت-هاب",
+          live: "رابط-الموقع",
         },
       ],
     },
